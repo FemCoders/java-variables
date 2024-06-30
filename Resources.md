@@ -26,6 +26,9 @@ Para eso utilizamos el método print nativo de Java que se encuentra dentro de l
 
 System.out.println("Hello World!");
 
+- println: imprime el texto y pasa a una nueva línea.
+- print: imprime el texto pero no se mueve a una nueva línea.
+
 * Imprimir en terminal
 https://www.w3schools.com/java/java_output.asp
 
