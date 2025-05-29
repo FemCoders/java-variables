@@ -2,27 +2,31 @@ public class Universe {
     public static void main(String[] args) {
         //Somos actualmente 8 118 302 456 de personas en el mundo. 
         //Java no permite una variable de tipo int, mayor que 2 147 483 647 por lo que la polación mundial no cabe en un int.
-        //Intenta hacer una variable de tipo int con el valor de la población actual y mira el error.
+        
+        //Ejercicio 1: Intenta hacer una variable de tipo int con el valor de la población actual y mira el error.
 
         //Escribe aquí tu código
 
 
         //Para poder almacenar la población mundial tenemos que definir el tipo de dato long que almacena un valor de hasta 9 223 372 036 854 775 807 
-        //Para ello define una variable de tipo long con ese valor
+
+        //Ejercicio 2: Para ello define una variable de tipo long con ese valor
 
         //Escribe aquí tu código
 
 
         //¿Te sale el mismo error que el anterior?
         //Eso es debido a que cuando definimos una variable de tipo long debemos poner una L al final del último número.
-        //Inténtalo de nuevo
+
+        //Ejercicio 3: Inténtalo de nuevo
 
         //Escribe aquí tu código
 
 
         //Un número largo sin tener un separador de millares, cuesta mucho de leer, es más fácil entender este valor 8 118 302 456, java nos permite tener este espacio con el underscore, cada tres dígitos. 
         
-        //Inténtalo de nuevo con separador de millares
+        //Ejercicio 4: Inténtalo de nuevo con separador de millares
+
         //Escribe aquí tu código
 
 
@@ -30,12 +34,12 @@ public class Universe {
         System.out.println("La población mundial actual es de <population> habitantes.");
 
 
-        //La vía láctea parece tener unos cuatrocientos mil millones de estrellas, crea una variable con esa cantidad.
+        //Ejercicio 5: La vía láctea parece tener unos cuatrocientos mil millones de estrellas, crea una variable con esa cantidad.
 
         //Escribe aquí tu código
 
 
-        //Andrómeda parece tener un billón de estrellas, crea una variable con esa cantidad.
+        //Ejercicio 6: Andrómeda parece tener un billón de estrellas, crea una variable con esa cantidad.
 
         //Escribe aquí tu código
 
@@ -45,7 +49,7 @@ public class Universe {
 
         //El problema es que está añadiendo el valor de milkyWay al String anterior, lo que convierte ese valor en String y cuando llega a andromeda también lo convierte a String y no puede hacer la operación matemática. Para dar prioridades de operaciones, usamos los paréntesis. 
 
-        //Intenta resolver este problema dentro del System.out.println para que nos devuelva la suma de milkyWay + andromeda
+        //Ejercicio 7: Intenta resolver este problema dentro del System.out.println para que nos devuelva la suma de milkyWay + andromeda
         //Escribe aquí tu código
         
 
